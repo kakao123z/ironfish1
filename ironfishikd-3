@@ -1,0 +1,10 @@
+ronfish chain:download --datadir=~/ironfish2
+ironfish start --datadir=~/ironfish2
+ironfish config:set blockGraffiti "<your graffiti here>"  --datadir=~/ironfish2
+ironfish faucet  --datadir=~/ironfish2
+ironfish wallet:balance  --datadir=~/ironfish2
+ironfish wallet:address --datadir=~/ironfish2
+ironfish miners:start --pool pool.ironfish.network --address <PUBLIC KEY>  --datadir=~/ironfish2
+ironfish wallet:mint --datadir=~/ironfish2
+ironfish wallet:burn --datadir=~/ironfish2
+ironfish wallet:send --datadir=~/ironfish2
